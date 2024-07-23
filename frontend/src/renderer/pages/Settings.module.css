@@ -1,0 +1,60 @@
+.settingsContainer {
+  width: 100%;
+  min-height: 100%;
+}
+
+.settingsCardContainer {
+  width: 100%;
+  height: 100%;
+  padding: 52px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  gap: 40px;
+}
+
+.settingsCardContainer > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.inputLabel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  min-width: 170px;
+}
+
+.serverAddress {
+  margin-bottom: 24px;
+}
+
+.serverAddressInputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.serverAddressInputWrapper .labelContainer {
+  position: absolute;
+  top: calc(100% + 4px);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labelContainer > *:nth-child(1) {
+  color: #838397;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.labelContainer > *:nth-child(2) {
+  color: #f84343;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}

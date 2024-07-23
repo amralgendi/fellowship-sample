@@ -1,0 +1,30 @@
+.expiredBanner {
+  -webkit-app-region: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: #bdbdcd;
+  height: 45px;
+  /* z-index: 10; */
+  /* top: 0;
+  left: 50%;
+  transform: translateX(-50%); */
+  width: 400px;
+  border-bottom-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font: 16px;
+  font-weight: 600;
+}
+
+.expiredBanner span {
+  font-weight: 800;
+  text-decoration: underline;
+  font-style: italic;
+  color: black;
+}

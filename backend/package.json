@@ -1,0 +1,24 @@
+{
+  "main": "index.js",
+  "dependencies": {
+    "node-addon-api": "^8.0.0"
+  },
+  "scripts": {
+    "install": "pip install setuptools",
+    "postinstall": "npm run build",
+    "build": "node-gyp rebuild",
+    "postbuild": "electron-rebuild -v 26.2.1"
+  },
+  "gypfile": true,
+  "name": "backend",
+  "types": "index.d.ts",
+  "version": "1.0.0",
+  "author": "Amr AlGendi",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@electron/rebuild": "^3.6.0",
+    "@types/node": "^20.12.12",
+    "node-gyp": "^10.1.0"
+  }
+}

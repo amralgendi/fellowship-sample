@@ -1,0 +1,184 @@
+.backupContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.backupCardContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.backupCardContainer > div {
+  padding: 0 30px;
+}
+
+.backupContainer .footer {
+  padding: 20px 30px;
+}
+
+.backupCardContainer .header {
+  padding-top: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.header div:first-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #161639;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header .add {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  position: relative;
+}
+
+.addMenuContainer {
+  top: 100%;
+  padding: 6px;
+  width: max-content;
+}
+
+.addMenu {
+  padding: 6px 10px;
+}
+
+.addMenu * {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #161639;
+}
+
+.header button {
+  cursor: pointer;
+  background: linear-gradient(to top, #3e3e9f, #161639);
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.tableContainer {
+  border-radius: 20px;
+  width: 100%;
+  border: 1px solid #d7d7e0;
+}
+
+.table {
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 20px;
+  border-collapse: collapse;
+}
+
+.table thead tr {
+  text-align: left;
+  border-bottom: 1px solid #d7d7e0;
+}
+
+.table tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+.table tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+.table tbody tr {
+  padding: 6px 0;
+}
+
+.table th {
+  padding: 20px 14px;
+}
+
+.table td:first-child,
+.table th:first-child {
+  padding-left: 30px;
+}
+
+.table td:last-child,
+.table th:last-child {
+  width: 30px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f6f6ff;
+}
+
+.table td {
+  padding: 10px 14px;
+}
+
+.footer {
+  border-top: 1px solid #d7d7e0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer > div:first-child div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer > div:last-child {
+  padding: 5px;
+}
+
+.schedule {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #161639;
+}
+
+.backupTime {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838397;
+}
+
+.backupTime span {
+  color: #161639;
+  font-weight: 500;
+}
+
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}

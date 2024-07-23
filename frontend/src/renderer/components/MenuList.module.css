@@ -1,0 +1,36 @@
+.menuContainer {
+  position: absolute;
+  top: calc(100% + 9px);
+  right: 0;
+  width: 280px;
+  background-color: white;
+  padding: 4px 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px 0 rgb(22, 22, 57, 0.15);
+  transition: 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.menuContainer.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: #d7d7e0;
+}
+
+.menu * {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}

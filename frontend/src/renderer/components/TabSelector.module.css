@@ -1,0 +1,78 @@
+.container * {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.container {
+  width: 320px;
+  background: linear-gradient(to left, #3e3e9f, #161639);
+  background-size: 700px 100%;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > div {
+  width: 100%;
+  padding: 47px 45px;
+}
+
+.iconLabel {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 14px 20px;
+
+  border-radius: 12px;
+}
+
+.container .tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.container a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.container .feedback,
+.container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tab.active {
+  background-color: white;
+}
+
+.tab.active * {
+  color: #161639;
+}
+
+.tab * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback .iconLabel {
+  padding: 16px 20px;
+}
+
+@media screen and (height < 870px) {
+  .container > div {
+    padding: 30px 45px;
+  }
+}

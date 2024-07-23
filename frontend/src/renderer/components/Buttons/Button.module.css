@@ -1,0 +1,60 @@
+.btn {
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid;
+}
+
+.btn.white {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.btn.black {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.btn.big {
+  padding: 18px 72px;
+}
+
+.btn,
+.btn div {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn.big,
+.btn.big div {
+  font-weight: 700;
+}
+
+.controlBtn {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+}
+
+.controlBtn button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d7d7e0;
+  box-shadow: 1px 1px #c8cfc1 4px;
+  background-color: #f6f6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  padding: 5px;
+}

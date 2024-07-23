@@ -1,0 +1,64 @@
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.fileInputLabel {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #d7d7e0;
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fileInputLabel .label {
+  padding: 20px;
+  flex: 1;
+}
+
+.fileInputLabel .browse {
+  padding: 20px;
+  background-color: #d7d7e0;
+}
+
+.fileViewer {
+  position: relative;
+  padding: 12px 20px;
+  display: flex;
+  gap: 12px;
+  background-color: #f6f6ff;
+}
+
+.fileViewer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fileViewer .name {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.fileViewer .size {
+  color: #838397;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.fileViewer .closeBtn {
+  top: 5px;
+  right: 5px;
+  position: absolute;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

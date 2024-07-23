@@ -1,0 +1,60 @@
+.layover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1000;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 480px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.modal .titleContainer {
+  padding: 20px 30px;
+  display: flex;
+  background: linear-gradient(to top, #3e3e9f, #161639);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal .titleContainer .title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+}
+
+.modal .content {
+  padding: 40px 30px;
+  background-color: white;
+}
+
+.modal .titleContainer .close {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+}
+
+.modal .titleContainer .close button {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d7d7e0;
+  box-shadow: 1px 1px #c8cfc1 4px;
+  background-color: #f6f6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  padding: 5px;
+}

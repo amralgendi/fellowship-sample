@@ -1,0 +1,27 @@
+.infoCard {
+  gap: 50px;
+  padding: 30px;
+  height: 100%;
+}
+
+.subtitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtitleContainer.oneItem {
+  justify-content: center;
+}
+
+.infoCard h1 {
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.infoCard h3 {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 20px;
+}

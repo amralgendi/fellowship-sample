@@ -1,0 +1,42 @@
+.toggleContainer {
+  border-radius: 100px;
+  width: 82px;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.toggleContainer.true {
+  flex-direction: row-reverse;
+  background: linear-gradient(to top, #3e3e9f, #161639);
+  /* padding-left: 10px; */
+}
+
+.toggleContainer.false {
+  flex-direction: row;
+  background-color: #838397;
+  /* padding-right: 10px; */
+}
+
+.toggleContainer div {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.toggleContainer.true div {
+  color: white;
+}
+
+.toggleContainer.false div {
+  color: black;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+}

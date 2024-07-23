@@ -1,0 +1,16 @@
+.selectionWrapper {
+  position: relative;
+}
+
+.selectionContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d7d7e0;
+  border-radius: 12px;
+}
+
+.selectionList {
+  width: 100%;
+}

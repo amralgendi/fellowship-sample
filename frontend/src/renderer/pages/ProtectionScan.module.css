@@ -1,0 +1,58 @@
+.protectionScanContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.scanCardContainer {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.titleSubtitle {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+
+.titleSubtitle > div:first-child {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+}
+.titleSubtitle > div:last-child {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838397;
+}
+
+.scanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.scanner > div:last-child {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.loadingNum {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 50px;
+}
+
+.warning {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}

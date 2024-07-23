@@ -1,0 +1,18 @@
+{
+  "total_violation": 12,
+  "risk_score": 98,
+  "last backup_date": "31-05-23 13:12",
+  "threat_protection": {},
+  "dlp": {
+    "device_control": {
+      "usb_storage_device": 1,
+      "cd_dvd": 2,
+      "portable_device": 2,
+      "webcam": 2,
+      "usb_port": 2,
+      "serial_port": 2
+    },
+    "app_control": 2,
+    "web_filtering": 2
+  }
+}

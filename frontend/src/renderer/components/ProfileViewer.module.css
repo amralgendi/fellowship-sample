@@ -1,0 +1,101 @@
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+
+.profileContainer .tabName {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profileContainer .tabName > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.profileContainer .tabName > * {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #838397;
+}
+
+.profileContainer .tabName > *:last-child {
+  color: #161639;
+}
+
+.profileContainer .notifications {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.profileContainer .notifications.exists::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f84343;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileName {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+
+  height: 100%;
+
+  align-items: end;
+  gap: 4px;
+}
+
+.profileName .title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838397;
+}
+
+.profileName .subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.profileImageDropdown {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.profileDropdown {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

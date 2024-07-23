@@ -1,0 +1,9 @@
+.modal {
+  width: 790px;
+}
+
+.modal div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
